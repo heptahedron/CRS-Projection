@@ -29,7 +29,3 @@ var dataFramework = {
   },
   "features": data.features
 }
-
-var elem = document.getElementById("pre")
-
-let getJSON = elem.innerHTML = JSON.stringify(dataFramework)
