@@ -18,3 +18,5 @@ function esriToWsgi84(featureCollection) {
 
   return featureCollection
 }
+
+module.exports = esriToWsgi84;
