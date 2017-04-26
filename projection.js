@@ -1,8 +1,8 @@
 import data from './data.json';
 import proj4 from 'proj4';
 
-let esriProjection = '+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs';
-let wgs84Projection = "+proj=longlat +datum=WGS84 +no_defs";
+const esriProjection = '+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs';
+const wgs84Projection = "+proj=longlat +datum=WGS84 +no_defs";
 
 let projCoord = 0;
 
