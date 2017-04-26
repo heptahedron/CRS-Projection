@@ -7,8 +7,7 @@ const wgs84Projection = "+proj=longlat +datum=WGS84 +no_defs";
 let projCoord = 0;
 
 function changeCoords(coordinates){
-
-	return proj4(esriProjection , wgs84Projection, [data.features[i].geometry.coordinates[0], data.features[i].geometry.coordinates[1]]);
+	return proj4(esriProjection, wgs84Projection, coordinates);
 }
 
 for (var i = 0; i < data.features.length; i++) {
