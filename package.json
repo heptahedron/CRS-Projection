@@ -2,19 +2,10 @@
   "name": "projection",
   "version": "1.0.0",
   "description": "projection 4 template",
-  "main": "projetion.js",
-  "scripts": {
-    "webpack": "webpack-dev-server --inline --hot -d"
-  },
+  "main": "projection.js",
   "author": "Brandon Pachuca",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "json-loader": "^0.5.4",
-    "proj4": "^2.4.3",
-    "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.5"
+    "proj4": "^2.4.3"
   }
 }
