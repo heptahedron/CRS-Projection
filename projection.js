@@ -10,8 +10,7 @@ function changeCoords(coordinates){
 function esriToWsgi84(featureCollection) {
   for (var i = 0; i < featureCollection.features.length; i++) {
     const projCoord =
-          changeCoords(featureCollection.features[i].geometry.coordinates[0],
-                       featureCollection.features[i].geometry.coordinates[1])
+          changeCoords(featureCollection.features[i].geometry.coordinates)
 
 	  featureCollection.features[i].geometry.coordinates[0] = projCoord[0];
 	  featureCollection.features[i].geometry.coordinates[1] = projCoord[1];
