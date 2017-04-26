@@ -16,14 +16,5 @@ function esriToWsgi84(featureCollection) {
 	  featureCollection.features[i].geometry.coordinates[1] = projCoord[1];
   }
 
-  return {
-    "type": "FeatureCollection",
-      "crs": {
-        "type": "name",
-        "properties": {
-          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-        }
-      },
-      "features": featureCollection.features
-  }
+  return featureCollection
 }
