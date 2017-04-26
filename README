@@ -3,5 +3,5 @@ Installation
 npm install
 npm run webpack
 
-fils run on webpack-dev-server
+webpack-dev-server
 localhost:8080
